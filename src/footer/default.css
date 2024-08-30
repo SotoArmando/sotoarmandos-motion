@@ -1,0 +1,130 @@
+.default-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  height: 21.0625rem;
+  padding: 5rem 4rem;
+}
+
+.default-footer-row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: 2.6875rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.default-footer-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 27.84375rem;
+  justify-content: start;
+}
+
+.default-footer-text-block {
+  display: flex;
+  flex-direction: column;
+  height: 2.6875rem;
+  justify-content: start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: start;
+}
+
+.default-footer-links-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 22.3125rem;
+  justify-content: start;
+}
+
+.default-footer-link {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.default-footer-icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  width: 27.84375rem;
+  justify-content: end;
+}
+
+.default-footer-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.14rem 0.125rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.default-footer-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 3.375rem;
+  align-items: center;
+}
+
+.default-footer-divider-line {
+  display: flex;
+  flex-direction: column;
+  height: 0.0625rem;
+  border-bottom: 0.0625rem solid #202937;
+  width: 100%;
+}
+
+.default-footer-bottom-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  height: 1.3125rem;
+}
+
+.default-footer-copyright {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+}
+
+.default-footer-policy-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: start;
+}
+
+.default-footer-policy-link {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) { 
+  .default-footer-row{
+    height: auto;
+  }
+
+  .default-footer-icons-container {
+    justify-content: center;
+  }
+}

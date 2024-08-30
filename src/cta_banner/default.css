@@ -1,0 +1,96 @@
+.cta-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    height: 23.1875rem;
+    width: unset;
+    justify-content: start;
+    align-items: stretch;
+    padding: 7rem 4rem;
+  }
+  
+  .cta-row {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    height: 9.1875rem;
+    width: unset;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .cta-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 51rem;
+    justify-content: start;
+    align-items: stretch;
+    padding: 0;
+  }
+  
+  .cta-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 9.1875rem;
+    justify-content: start;
+    align-items: stretch;
+    padding: 0;
+  }
+  
+  .cta-heading {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 900;
+    color: #202937;
+  }
+  
+  .cta-subheading {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    font-weight: 400;
+    color: #4B5463
+  }
+  
+  .cta-buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 26rem;
+    justify-content: start;
+    align-items: stretch;
+    padding: 0;
+  }
+  
+  .cta-button {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 12.25rem;
+    justify-content: center;
+    padding: 0.5rem 1.25rem;
+  }
+  
+  .cta-button-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.1875rem;
+    line-height: 1.78125rem;
+    font-weight: 700;
+  }
+
+  @media only screen and (max-width: 1280px) { 
+    .cta-row {
+      flex-wrap: wrap;
+    }
+  }
+  
